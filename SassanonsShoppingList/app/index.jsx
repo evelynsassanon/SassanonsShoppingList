@@ -19,7 +19,7 @@ export default function Welcome() {
          <Text style={style.buttonText}>Acessar</Text>
         </link>
       </View>
-
+          
     </View>
   );
 }
@@ -58,9 +58,19 @@ const styles = StyleSheet.create({
     color: 'gray'
   },
   button:{
-
+    position: 'absolute',
+    backgroundColor: '#000',
+    bottom: '15%',
+    alingSelf: 'center',
+    borderRadius: 50,
+    paddingVertical: 15,
+    width: '60%',
+    textAllign: 'center',
   },
+
   buttonText:{
-
-  },
+    fontsize: 22,
+    color:'#fff',
+    fontWeight: 'bold'
+  }
 });
