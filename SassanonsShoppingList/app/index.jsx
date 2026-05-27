@@ -27,50 +27,49 @@ export default function Welcome() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
   },
-  containerImage:{
+  containerImage: {
     flex: 2,
-    allignItems: 'center',
+    alignItems: 'center',
     justifyContent: 'center',
   },
-  download: {
+  avatar: {
     width: 230,
     height: 230,
-    resizeMode:'cover',
-   borderRadius: 115,
+    resizeMode: 'cover',
+    borderRadius: 115,
   },
   content: {
     flex: 1,
     backgroundColor: '#dadada',
     borderTopStartRadius: 25,
     borderTopEndRadius: 25,
-    paddingHorizontal: 5,
+    paddingHorizontal: '5%'
   },
-  tittle:{
-    fontsize: 30,
+  title: {
+    fontSize: 30,
     fontWeight: 'bold',
     marginVertical: 20,
-    textAllign:'center'
+    textAlign: 'center',
   },
-  text:{
-    fontsize: 16,
-    color: 'gray'
+  text: {
+    fontSize: 16,
+    color: 'gray',
   },
-  button:{
+  button: {
     position: 'absolute',
     backgroundColor: '#000',
     bottom: '15%',
-    alingSelf: 'center',
+    alignSelf: 'center',
     borderRadius: 50,
     paddingVertical: 15,
     width: '60%',
-    textAllign: 'center',
+    textAlign: 'center',
   },
-
-  buttonText:{
-    fontsize: 22,
-    color:'#fff',
+  buttonText: {
+    fontSize: 22,
+    color: '#fff',
     fontWeight: 'bold'
   }
 });
